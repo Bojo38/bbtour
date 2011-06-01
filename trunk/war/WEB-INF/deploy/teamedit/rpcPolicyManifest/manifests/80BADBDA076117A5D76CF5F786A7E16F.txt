@@ -1,2 +1,0 @@
-serviceClass: bojo.teamedit.client.GreetingService
-path: 66CB0DA7E8A9A1121B228A6527DA5756.gwt.rpc

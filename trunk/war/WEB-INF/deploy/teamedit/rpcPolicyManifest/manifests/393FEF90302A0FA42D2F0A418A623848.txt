@@ -1,2 +1,0 @@
-serviceClass: bojo.teamedit.client.SkillTypeEdit
-path: AB33CF6DC2FCAF3404B128F38ECFAEFC.gwt.rpc
