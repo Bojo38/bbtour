@@ -11,7 +11,7 @@ import com.google.appengine.api.datastore.DatastoreServiceFactory;
 import com.google.appengine.api.datastore.Entity;
 import com.google.appengine.api.datastore.FetchOptions;
 import com.google.appengine.api.datastore.Key;
-import com.google.appengine.api.datastore.KeyFactory;
+
 import com.google.appengine.api.datastore.Query;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
@@ -52,7 +52,7 @@ public class SkillTypeEditImpl extends RemoteServiceServlet implements
 	public int removeSkillType(String Name) throws IllegalArgumentException {
 
 		Query query = new Query("SkillType");
-		Vector<SkillType> datas = new Vector<SkillType>();
+		//Vector<SkillType> datas = new Vector<SkillType>();
 		List<Entity> entities = datastore.prepare(query).asList(
 				FetchOptions.Builder.withDefaults());
 
@@ -74,7 +74,7 @@ public class SkillTypeEditImpl extends RemoteServiceServlet implements
 
 		if (!Name.equals("") && !Newname.equals("")) {
 			Query query = new Query("SkillType");
-			Vector<SkillType> datas = new Vector<SkillType>();
+			//Vector<SkillType> datas = new Vector<SkillType>();
 			List<Entity> entities = datastore.prepare(query).asList(
 					FetchOptions.Builder.withDefaults());
 
