@@ -5,6 +5,8 @@ import java.util.Vector;
 
 public class TeamType implements Serializable{
 	
+	static final long serialVersionUID = 1L;
+	
 	public int _name;
 	public Vector<PlayerType> _playerTypes;
 	public int _rerollPrice;

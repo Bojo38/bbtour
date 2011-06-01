@@ -6,6 +6,9 @@ import java.util.Vector;
 
 public class PlayerType implements Serializable{
 	
+	
+	static final long serialVersionUID = 1L;
+	
 	public String _position;
 	public int _movement;
 	public int _strength;
