@@ -33,6 +33,7 @@ import java.util.Vector;
 import com.google.gwt.cell.client.CheckboxCell;
 import com.google.gwt.user.client.ui.TabPanel;
 import com.google.gwt.user.client.ui.ListBox;
+import com.smartgwt.client.widgets.calendar.Calendar;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
